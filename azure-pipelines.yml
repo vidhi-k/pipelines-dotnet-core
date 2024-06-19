@@ -7,13 +7,13 @@ trigger: none
 
 resources: 
   repositories:
-    - repository: GovernedTemplates
+    - repository: ProjToTest
       type: git
       name: ProjToTest/ProjToTest
-      ref: refs/heads/main
+      ref: refs/heads/master
 
 extends:
-  template: v2/Microsoft.NonOfficial.yml@GovernedTemplates
+  template: v2/Microsoft.NonOfficial.yml@ProjToTest
   parameters:
       platform:
         name: m365
