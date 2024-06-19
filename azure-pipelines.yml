@@ -9,7 +9,7 @@ resources:
   repositories:
     - repository: GovernedTemplates
       type: git
-      name: OneBranch.Pipelines/GovernedTemplates
+      name: ProjToTest/ProjToTest/GovernedTemplated
       ref: refs/heads/main
 
 extends:
